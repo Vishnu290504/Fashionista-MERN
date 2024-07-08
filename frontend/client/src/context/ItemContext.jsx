@@ -88,7 +88,7 @@ const CustomItemContext = ({ children }) => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await axios.get('https://fashionista-uo86.onrender.com/products');
+        const response = await axios.get('https://fashionista-besm.onrender.com/products');
         setProducts(response.data);
       } catch (error) {
         console.error('Failed to fetch products:', error);
